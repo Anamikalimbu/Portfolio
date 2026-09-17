@@ -77,7 +77,7 @@
   const el = document.getElementById('typingText');
   if (!el) return;
 
-  const words   = ['Full Stack Developer', ' MERN Developer', ' Student '];
+  const words   = [' Full Stack Developer', ' MERN Developer', ' Student'];
   let wIdx = 0, cIdx = 0, deleting = false, paused = false;
 
   const TYPING_SPEED   = 90;
